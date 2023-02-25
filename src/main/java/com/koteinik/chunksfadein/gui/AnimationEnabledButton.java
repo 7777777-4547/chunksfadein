@@ -25,8 +25,8 @@ public class AnimationEnabledButton extends ButtonWidget {
         Boolean isAnimationEnabled = Config.isAnimationEnabled;
 
         String color = isAnimationEnabled ? "§2" : "§c";
-        String enabledText = isAnimationEnabled ? "YES" : "NO";
+        String enabledText = isAnimationEnabled ? (Text.translatable("chunksfadein.gui.true").getString()) : (Text.translatable("chunksfadein.gui.false").getString());
 
-        return Text.of("Animation enabled: " + color + enabledText);
+        return Text.of(Text.translatable("chunksfadein.gui.animation").getString() + ": " + color + enabledText);
     }
 }

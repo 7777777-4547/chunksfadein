@@ -34,6 +34,6 @@ public class AnimationTimeSlider extends SliderWidget {
     }
 
     private static String getText(double value) {
-        return String.format("Animation time: %.2f sec", value);
+        return String.format((Text.translatable("chunksfadein.gui.animation.slider.time").getString()) + ": %.2f " + (Text.translatable("chunksfadein.gui.time.value").getString()), value);
     }
 }

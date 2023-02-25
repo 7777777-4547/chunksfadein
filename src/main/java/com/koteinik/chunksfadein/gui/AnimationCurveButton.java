@@ -31,7 +31,7 @@ public class AnimationCurveButton extends ButtonWidget {
     private static Text createText() {
         Curves curve = Config.animationCurve;
 
-        return Text.of("Curve: §e" + enumNameToString(curve));
+        return Text.of((Text.translatable("chunksfadein.gui.animation.curve").getString()) + ": §e" + enumNameToString(curve));
     }
 
     private static String enumNameToString(Enum<?> value) {

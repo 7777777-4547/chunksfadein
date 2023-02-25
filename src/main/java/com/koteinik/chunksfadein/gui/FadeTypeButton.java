@@ -34,7 +34,7 @@ public class FadeTypeButton extends ButtonWidget {
     private static Text createText() {
         FadeTypes curve = Config.fadeType;
 
-        return Text.of("Fade type: §e" + enumNameToString(curve));
+        return Text.of((Text.translatable("chunksfadein.gui.fade.type").getString()) + ": §e" + enumNameToString(curve));
     }
 
     private static String enumNameToString(Enum<?> value) {

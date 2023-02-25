@@ -1,0 +1,24 @@
+{
+  "chunksfadein.gui.title": "Chunks fade in 模组设置",
+
+  "chunksfadein.gui.mod-enabled": "启用模组",
+  "chunksfadein.gui.mod-enabled.tooltip": "这个选项不能在游戏中更改",
+
+  "chunksfadein.gui.fade": "启用淡入",
+  "chunksfadein.gui.fade.type": "淡入类型",
+  "chunksfadein.gui.fade.slider.time": "淡入时间",
+
+  "chunksfadein.gui.animation": "启用动画",
+  "chunksfadein.gui.animation.curve": "曲值",
+  "chunksfadein.gui.animation.slider.offset": "动画开始位置（-y）",
+  "chunksfadein.gui.animation.slider.time": "动画持续时间",
+  "chunksfadein.gui.animate-near-player": "玩家附近的动画",
+
+  "chunksfadein.gui.update-notifier": "更新提示",
+
+  "chunksfadein.gui.time.value": "秒",
+  "chunksfadein.gui.false": "否",
+  "chunksfadein.gui.true": "是",
+
+  "chunksfadein.gui.button.reset": "重置"
+}

@@ -9,7 +9,7 @@ public class ResetButton extends ButtonWidget {
 
     public ResetButton(int parentW, int parentH, int offsetX, int offsetY, Runnable resetCallback) {
         super(parentW / 2 - buttonW / 2 + offsetX, parentH / 2 - buttonH / 2 + offsetY,
-                buttonW, buttonH, Text.of("Reset"), new PressAction() {
+                buttonW, buttonH, Text.translatable("chunksfadein.gui.button.reset"), new PressAction() {
                     @Override
                     public void onPress(ButtonWidget button) {
                         resetCallback.run();

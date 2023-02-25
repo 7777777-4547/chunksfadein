@@ -82,7 +82,7 @@ public class SettingsScreen extends GameOptionsScreen {
         TextRenderer textRenderer = minecraftClient.textRenderer;
 
         renderBackground(matrices);
-        drawCenteredText(matrices, textRenderer, Text.of("Chunks fade in mod settings"), width / 2, height / 20,
+        drawCenteredText(matrices, textRenderer, Text.translatable("chunksfadein.gui.title"), width / 2, height / 20,
                 16777215 | 255 << 24);
         super.render(matrices, mouseX, mouseY, delta);
     }

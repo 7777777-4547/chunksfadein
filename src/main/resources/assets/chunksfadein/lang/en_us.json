@@ -1,0 +1,32 @@
+{
+  "chunksfadein.gui.title": "Chunks fade in mod settings",
+
+  "chunksfadein.gui.mod-enabled": "Mod enabled",
+  "chunksfadein.gui.mod-enabled.tooltip": "This option can't be changed in-game",
+
+  "chunksfadein.gui.fade": "Fade enabled",
+  "chunksfadein.gui.fade.type": "Fade type",
+  "chunksfadein.gui.fade.slider.time": "Fade time",
+
+  "chunksfadein.gui.animation": "Animation enabled",
+  "chunksfadein.gui.animation.curve": "Curve",
+  "chunksfadein.gui.animation.slider.offset": "Animation start (-y)",
+  "chunksfadein.gui.animation.slider.time": "Animation time",
+  "chunksfadein.gui.animate-near-player": "Animate near player",
+
+  "chunksfadein.gui.update-notifier": "Update notifier",
+
+  "chunksfadein.gui.time.value": "sec",
+  "chunksfadein.gui.false": "NO",
+  "chunksfadein.gui.true": "YES",
+
+  "chunksfadein.gui.animation.curve.linear": "LINEAR",
+  "chunksfadein.gui.animation.curve.ease_out": "EASE OUT",
+  "chunksfadein.gui.animation.curve.ease_circular": "EASE CIRCULAR",
+  "chunksfadein.gui.animation.curve.bounce": "BOUNCE",
+
+  "chunksfadein.gui.fade.type.full": "FULL",
+  "chunksfadein.gui.fade.type.lined": "LINED",
+
+  "chunksfadein.gui.button.reset": "Reset"
+}

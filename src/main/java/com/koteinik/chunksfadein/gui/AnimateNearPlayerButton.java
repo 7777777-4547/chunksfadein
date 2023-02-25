@@ -25,8 +25,8 @@ public class AnimateNearPlayerButton extends ButtonWidget {
         Boolean animateNearPlayer = Config.animateNearPlayer;
 
         String color = animateNearPlayer ? "§2" : "§c";
-        String enabledText = animateNearPlayer ? "YES" : "NO";
+        String enabledText = animateNearPlayer ? (Text.translatable("chunksfadein.gui.true").getString()) : (Text.translatable("chunksfadein.gui.false").getString());
 
-        return Text.of("Animate near player: " + color + enabledText);
+        return Text.of((Text.translatable("chunksfadein.gui.animate-near-player").getString()) + ": " + color + enabledText);
     }
 }

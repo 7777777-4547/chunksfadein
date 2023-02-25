@@ -34,6 +34,6 @@ public class AnimationOffsetSlider extends SliderWidget {
     }
 
     private static String getText(double value) {
-        return String.format("Animation start (-y): %.2f", value);
+        return String.format((Text.translatable("chunksfadein.gui.animation.slider.offset").getString()) + ": %.2f ", value);
     }
 }

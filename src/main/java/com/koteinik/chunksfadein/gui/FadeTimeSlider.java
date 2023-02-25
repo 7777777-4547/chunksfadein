@@ -34,6 +34,6 @@ public class FadeTimeSlider extends SliderWidget {
     }
 
     private static String getText(double value) {
-        return String.format("Fade time: %.2f sec", value);
+        return String.format((Text.translatable("chunksfadein.gui.fade.slider.time").getString()) + ": %.2f " + (Text.translatable("chunksfadein.gui.time.value").getString()), value);
     }
 }

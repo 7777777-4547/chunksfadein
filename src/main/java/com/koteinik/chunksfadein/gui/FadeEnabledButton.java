@@ -25,8 +25,8 @@ public class FadeEnabledButton extends ButtonWidget {
         Boolean isFadeEnabled = Config.isFadeEnabled;
 
         String color = isFadeEnabled ? "§2" : "§c";
-        String enabledText = isFadeEnabled ? "YES" : "NO";
+        String enabledText = isFadeEnabled ? (Text.translatable("chunksfadein.gui.true").getString()) : (Text.translatable("chunksfadein.gui.false").getString());
 
-        return Text.of("Fade enabled: " + color + enabledText);
+        return Text.of((Text.translatable("chunksfadein.gui.fade").getString()) + ": " + color + enabledText);
     }
 }

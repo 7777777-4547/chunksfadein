@@ -25,8 +25,8 @@ public class UpdateNotifierEnabledButton extends ButtonWidget {
         Boolean isUpdateNotifierEnabled = Config.isUpdateNotifierEnabled;
 
         String color = isUpdateNotifierEnabled ? "§2" : "§c";
-        String enabledText = isUpdateNotifierEnabled ? "ON" : "OFF";
+        String enabledText = isUpdateNotifierEnabled ? (Text.translatable("chunksfadein.gui.true").getString()) : (Text.translatable("chunksfadein.gui.false").getString());
 
-        return Text.of("Update notifier: " + color + enabledText);
+        return Text.of((Text.translatable("chunksfadein.gui.update-notifier").getString()) + ": " + color + enabledText);
     }
 }

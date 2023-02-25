@@ -23,7 +23,7 @@ public class ModEnabledButton extends ButtonWidget {
                     }
                 }, DEFAULT_NARRATION_SUPPLIER);
         if (!needToDisable())
-            this.setTooltip(Tooltip.of(Text.of("This option can't be changed in-game")));
+            this.setTooltip(Tooltip.of(Text.translatable("chunkfadein.gui.mod-enabled.tooltip")));
         this.active = needToDisable();
     }
 
@@ -31,9 +31,9 @@ public class ModEnabledButton extends ButtonWidget {
         Boolean isModEnabled = Config.isModEnabled;
 
         String color = isModEnabled ? "§2" : "§c";
-        String enabledText = isModEnabled ? "YES" : "NO";
+        String enabledText = isModEnabled ? (Text.translatable("chunksfadein.gui.true").getString()) : (Text.translatable("chunksfadein.gui.false").getString());
 
-        return Text.of("Mod enabled: " + color + enabledText);
+        return Text.of((Text.translatable("chunksfadein.gui.mod-enabled").getString()) + ": " + color + enabledText);
     }
 
     private static boolean needToDisable() {
